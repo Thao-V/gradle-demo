@@ -12,5 +12,5 @@ jar {
     }
 }
 2. Create jar file: ./gradlew jar
-3. Deploy the file in `build/libs/app.jar`
-4. Make sure the jave version in `build.gradle` and the JRE version in the deployed machine are matched.
+3. Deploy the file in `build/libs/app.jar` to the target machine
+4. Now you can run this jar file to any machine which has the same version of JRE: java -jar <your_path_to_jar_file>
