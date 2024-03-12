@@ -13,3 +13,4 @@ jar {
 }
 2. Create jar file: ./gradlew jar
 3. Deploy the file in `build/libs/app.jar`
+4. Make sure the jave version in `build.gradle` and the JRE version in the deployed machine are matched.
